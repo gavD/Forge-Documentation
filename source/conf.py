@@ -84,8 +84,8 @@ show_authors = False
 # pygments_style = 'perldoc'
 # pygments_style = 'borland'
 # pygments_style = 'colorful'
-# pygments_style = 'default'
-pygments_style = 'murphy'
+pygments_style = 'default'
+# pygments_style = 'murphy'
 # pygments_style = 'vs'
 # pygments_style = 'trac'
 # pygments_style = 'tango'
@@ -105,7 +105,7 @@ highlight_language = 'js'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 # html_theme = 'sphinxdoc'
-html_theme = 'forge'
+html_theme = 'proBlue'
 # html_theme = 'haiku'
 # haiku: no sidebar, nice notes
 # agogo: good sidebar, too much vspace, bit messy
@@ -129,7 +129,7 @@ html_short_title = 'Forge Documentation'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = '_static/images/trigger-forge.png'
+# html_logo = '_static/images/trigger-forge.png'
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32

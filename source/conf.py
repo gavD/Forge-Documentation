@@ -37,10 +37,12 @@ source_suffix = '.rst'
 
 # The master toctree document.
 master_doc = 'index'
+maxdepth = 1
+titlesonly = True
 
 # General information about the project.
 project = u'Forge Documentation'
-copyright = u'2011, Trigger Corp.'
+copyright = u'2012, Trigger Corp.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

@@ -41,22 +41,23 @@ div.documentwrapper {
 
 div.bodywrapper {
     margin: 0 0 0 300px;
+    max-width: 850px;
 }
 
-hr{
+hr {
     border: 1px solid #B1B4B6;
 }
 
 div.document {
     margin: 9px auto 0 auto;
-    max-width: 1150px;
+    max-width: 1430px;
     min-width: 400px;
 }
 
 span.api-header {
     font-family: Museo, 'Trebuchet MS', Helvetica, sans-serif;
     font-size: 36px;
-    margin: -5px 0 10px 20px;
+    margin: -5px 0 10px 16px;
     display: inline-block;
 }
 

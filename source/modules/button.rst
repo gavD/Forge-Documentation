@@ -1,13 +1,28 @@
 .. _modules-button:
 
+.. ---start module:title
+
 ``button``: Toolbar button
 ================================================================================
+
+.. ---end module:title
+
 **Platforms: Browser**
+
+.. ---start module:targets
+.. browser
+.. ---end module:targets
+
+.. ---start module:title
+
+The ``button`` configuration controls the appearance and function of toolbar icons in the browsers.
+
+.. ---end module:title
 
 Config
 ------
 
-The ``button`` configuration controls the appearance and function of toolbar icons in the browsers. With this directive, you can specify a HTML file which will be displayed when the button is clicked, a default button icon as well as platform-specific icons.
+ With this directive, you can specify a HTML file which will be displayed when the button is clicked, a default button icon as well as platform-specific icons.
 
 .. parsed-literal::
     {
@@ -109,4 +124,25 @@ Set the tooltip text for a toolbar button.
     :param string title: title text to set as the toolbar tooltip
     :param function() success: callback to be invoked when no errors occur
     :param function(content) error: called with details of any error which may occur
-    
+
+Examples
+--------------------------------------------------------------------------------
+
+.. ---start example:toggle:title
+
+Toggle a toolbar icon between two images when it is clicked
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. ---end example:toggle:title
+
+.. ---start example:toggle:description
+
+Demonstrates setting the icon on a toolbar button, and handling click events on the button.
+
+.. ---end example:toggle:description
+
+.. ---start example:toggle:snippet
+
+    forge.button.blah.blah
+
+.. ---end example:toggle:snippet
